@@ -12,6 +12,11 @@ public class PasswordUtils {
 	public PasswordUtils() {	
 	}
 	
+	/**
+	 *  Gera um hash utilizando BCrypt
+	 * @param senha
+	 * @return String
+	 */
 	public static String gerarBCrypt(String senha) {		
 		if (senha == null) {
 			return senha;
